@@ -13,9 +13,9 @@ $ npm install jsdoc-regex --save
 ## Usage
 
 ```javascript
-var jsdocRegex = require('jsdoc-regex');
+const jsdocRegex = require('jsdoc-regex');
 
-var methods = contents.match(jsdocRegex());
+const methods = contents.match(jsdocRegex());
 
 console.log(methods[0]);
 ```

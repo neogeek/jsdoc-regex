@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+before_install:
+  - if [[ `npm -v` != 3* ]]; then npm i -g npm@3; fi
+  - npm install doxdox -g
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+sudo: false

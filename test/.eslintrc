@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "@neogeek/eslint-config-standards/.eslintrc-tests"
+  ],
+  "rules": {
+    "no-sync": 0
+  }
+}

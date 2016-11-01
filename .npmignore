@@ -1,0 +1,7 @@
+test/
+
+.eslintrc
+
+.travis.yml
+
+Makefile
