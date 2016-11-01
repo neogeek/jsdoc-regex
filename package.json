@@ -2,16 +2,24 @@
   "name": "jsdoc-regex",
   "version": "1.0.0",
   "description": "Regular expression for matching JSDoc comment blocks and the code below them.",
-  "engines": {
-    "node": "0.10.x"
-  },
   "main": "index.js",
+  "engines": {
+    "node": ">=4.0"
+  },
   "license": "MIT",
   "keywords": [
     "regex",
     "jsdoc",
     "comments"
   ],
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "homepage": "https://github.com/neogeek/jsdoc-regex",
   "repository": {
     "type": "git",
     "url": "git://github.com/neogeek/jsdoc-regex.git"
