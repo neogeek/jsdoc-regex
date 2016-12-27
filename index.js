@@ -1,5 +1,5 @@
 module.exports = function jsdocRegex () {
 
-    return /[ ]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g;
+    return /[ \t]*\/\*\*\s*\n([^*]*(\*[^/])?)*\*\//g;
 
 };

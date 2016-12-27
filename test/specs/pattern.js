@@ -7,9 +7,19 @@ const pattern = require('../../index');
 
 describe('pattern match', () => {
 
-    it('found matches', () => {
+    it('found matches (spaces)', () => {
 
-        const matches = fs.readFileSync('./test/fixtures/examples.js', 'utf8').match(pattern());
+        const matches = fs.readFileSync('./test/fixtures/spaces.js', 'utf8').match(pattern());
+
+        console.log(matches);
+
+        assert.equal(matches.length, 2);
+
+    });
+
+    it('found matches (tabs)', () => {
+
+        const matches = fs.readFileSync('./test/fixtures/tabs.js', 'utf8').match(pattern());
 
         console.log(matches);
 
