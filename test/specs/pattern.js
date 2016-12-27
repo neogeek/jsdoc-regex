@@ -11,6 +11,8 @@ describe('pattern match', () => {
 
         const matches = fs.readFileSync('./test/fixtures/examples.js', 'utf8').match(pattern());
 
+        console.log(matches);
+
         assert.equal(matches.length, 2);
 
     });
