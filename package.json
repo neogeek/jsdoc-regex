@@ -1,7 +1,7 @@
 {
   "name": "jsdoc-regex",
   "version": "1.0.1",
-  "description": "Regular expression for matching JSDoc comment blocks and the code below them.",
+  "description": "Regular expression for matching JSDoc comment blocks.",
   "main": "index.js",
   "engines": {
     "node": ">=4.0"

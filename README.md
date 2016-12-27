@@ -3,7 +3,7 @@
 
 [![](http://img.shields.io/npm/v/jsdoc-regex.svg?style=flat)](https://www.npmjs.org/package/jsdoc-regex/)
 
-> Regular expression for matching JSDoc comment blocks and the code below them.
+> Regular expression for matching JSDoc comment blocks.
 
 ## Install
 
