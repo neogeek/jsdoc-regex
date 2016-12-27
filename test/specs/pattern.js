@@ -9,7 +9,7 @@ describe('pattern match', () => {
 
     it('found matches', () => {
 
-        const matches = fs.readFileSync('./test/fixtures/doxdox.js', 'utf8').match(pattern());
+        const matches = fs.readFileSync('./test/fixtures/examples.js', 'utf8').match(pattern());
 
         assert.equal(matches.length, 2);
 
