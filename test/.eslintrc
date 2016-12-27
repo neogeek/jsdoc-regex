@@ -3,6 +3,8 @@
     "@neogeek/eslint-config-standards/.eslintrc-tests"
   ],
   "rules": {
-    "no-sync": 0
+    "indent": 0,
+    "no-sync": 0,
+    "no-tabs": 0
   }
 }
