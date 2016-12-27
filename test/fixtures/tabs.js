@@ -1,4 +1,4 @@
-// This is a sample comment.
+// This is a single line  comment.
 
 const function1 = () => console.log('function1');
 
@@ -16,9 +16,9 @@ const function1 = () => console.log('function1');
 
 const function2 = () => console.log('function2');
 
-/** This is a sample comment */
+/** This is a single line comment */
 
-const function3 = () => console.log('function2');
+const function3 = () => console.log('function3');
 
 	/**
 	 * JSDoc comment with indentation.
