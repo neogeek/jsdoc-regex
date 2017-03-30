@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "1.14.0",
+    "@neogeek/eslint-config-standards": "1.15.0",
     "eslint": "3.18.0",
     "mocha": "3.2.0"
   },
