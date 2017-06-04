@@ -1,7 +1,6 @@
 test/
 
+.eslintignore
 .eslintrc
 
 .travis.yml
-
-Makefile

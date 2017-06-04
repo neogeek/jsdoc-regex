@@ -13,7 +13,8 @@
     "mocha": "^3.4.2"
   },
   "scripts": {
-    "test": "make test"
+    "test": "npm run lint && mocha test/specs/",
+    "lint": "eslint ."
   },
   "keywords": [
     "regex",
